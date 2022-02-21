@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538613F627C445C80041EA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538613F527C445C80041EA5A /* AppDelegate.swift */; };
+		538613F827C445C80041EA5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538613F727C445C80041EA5A /* SceneDelegate.swift */; };
+		538613FA27C445C80041EA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538613F927C445C80041EA5A /* ViewController.swift */; };
+		538613FD27C445C80041EA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538613FB27C445C80041EA5A /* Main.storyboard */; };
+		538613FF27C445CB0041EA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538613FE27C445CB0041EA5A /* Assets.xcassets */; };
+		5386140227C445CB0041EA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5386140027C445CB0041EA5A /* LaunchScreen.storyboard */; };
+		5386140D27C445CC0041EA5A /* Take_A_Pill_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386140C27C445CC0041EA5A /* Take_A_Pill_AppTests.swift */; };
+		5386141727C445CC0041EA5A /* Take_A_Pill_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386141627C445CC0041EA5A /* Take_A_Pill_AppUITests.swift */; };
+		5386141927C445CC0041EA5A /* Take_A_Pill_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386141827C445CC0041EA5A /* Take_A_Pill_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5386140927C445CC0041EA5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538613EA27C445C80041EA5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538613F127C445C80041EA5A;
+			remoteInfo = "Take A Pill App";
+		};
+		5386141327C445CC0041EA5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538613EA27C445C80041EA5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538613F127C445C80041EA5A;
+			remoteInfo = "Take A Pill App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		538613F227C445C80041EA5A /* Take A Pill App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take A Pill App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		538613F527C445C80041EA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		538613F727C445C80041EA5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		538613F927C445C80041EA5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		538613FC27C445C80041EA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		538613FE27C445CB0041EA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5386140127C445CB0041EA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5386140327C445CB0041EA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5386140827C445CC0041EA5A /* Take A Pill AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take A Pill AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5386140C27C445CC0041EA5A /* Take_A_Pill_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_A_Pill_AppTests.swift; sourceTree = "<group>"; };
+		5386141227C445CC0041EA5A /* Take A Pill AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take A Pill AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5386141627C445CC0041EA5A /* Take_A_Pill_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_A_Pill_AppUITests.swift; sourceTree = "<group>"; };
+		5386141827C445CC0041EA5A /* Take_A_Pill_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_A_Pill_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538613EF27C445C80041EA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5386140527C445CC0041EA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5386140F27C445CC0041EA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538613E927C445C80041EA5A = {
+			isa = PBXGroup;
+			children = (
+				538613F427C445C80041EA5A /* Take A Pill App */,
+				5386140B27C445CC0041EA5A /* Take A Pill AppTests */,
+				5386141527C445CC0041EA5A /* Take A Pill AppUITests */,
+				538613F327C445C80041EA5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538613F327C445C80041EA5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538613F227C445C80041EA5A /* Take A Pill App.app */,
+				5386140827C445CC0041EA5A /* Take A Pill AppTests.xctest */,
+				5386141227C445CC0041EA5A /* Take A Pill AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538613F427C445C80041EA5A /* Take A Pill App */ = {
+			isa = PBXGroup;
+			children = (
+				538613F527C445C80041EA5A /* AppDelegate.swift */,
+				538613F727C445C80041EA5A /* SceneDelegate.swift */,
+				538613F927C445C80041EA5A /* ViewController.swift */,
+				538613FB27C445C80041EA5A /* Main.storyboard */,
+				538613FE27C445CB0041EA5A /* Assets.xcassets */,
+				5386140027C445CB0041EA5A /* LaunchScreen.storyboard */,
+				5386140327C445CB0041EA5A /* Info.plist */,
+			);
+			path = "Take A Pill App";
+			sourceTree = "<group>";
+		};
+		5386140B27C445CC0041EA5A /* Take A Pill AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5386140C27C445CC0041EA5A /* Take_A_Pill_AppTests.swift */,
+			);
+			path = "Take A Pill AppTests";
+			sourceTree = "<group>";
+		};
+		5386141527C445CC0041EA5A /* Take A Pill AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5386141627C445CC0041EA5A /* Take_A_Pill_AppUITests.swift */,
+				5386141827C445CC0041EA5A /* Take_A_Pill_AppUITestsLaunchTests.swift */,
+			);
+			path = "Take A Pill AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538613F127C445C80041EA5A /* Take A Pill App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5386141C27C445CC0041EA5A /* Build configuration list for PBXNativeTarget "Take A Pill App" */;
+			buildPhases = (
+				538613EE27C445C80041EA5A /* Sources */,
+				538613EF27C445C80041EA5A /* Frameworks */,
+				538613F027C445C80041EA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Take A Pill App";
+			productName = "Take A Pill App";
+			productReference = 538613F227C445C80041EA5A /* Take A Pill App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5386140727C445CC0041EA5A /* Take A Pill AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5386141F27C445CC0041EA5A /* Build configuration list for PBXNativeTarget "Take A Pill AppTests" */;
+			buildPhases = (
+				5386140427C445CC0041EA5A /* Sources */,
+				5386140527C445CC0041EA5A /* Frameworks */,
+				5386140627C445CC0041EA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5386140A27C445CC0041EA5A /* PBXTargetDependency */,
+			);
+			name = "Take A Pill AppTests";
+			productName = "Take A Pill AppTests";
+			productReference = 5386140827C445CC0041EA5A /* Take A Pill AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5386141127C445CC0041EA5A /* Take A Pill AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5386142227C445CC0041EA5A /* Build configuration list for PBXNativeTarget "Take A Pill AppUITests" */;
+			buildPhases = (
+				5386140E27C445CC0041EA5A /* Sources */,
+				5386140F27C445CC0041EA5A /* Frameworks */,
+				5386141027C445CC0041EA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5386141427C445CC0041EA5A /* PBXTargetDependency */,
+			);
+			name = "Take A Pill AppUITests";
+			productName = "Take A Pill AppUITests";
+			productReference = 5386141227C445CC0041EA5A /* Take A Pill AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538613EA27C445C80041EA5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					538613F127C445C80041EA5A = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					5386140727C445CC0041EA5A = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 538613F127C445C80041EA5A;
+					};
+					5386141127C445CC0041EA5A = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 538613F127C445C80041EA5A;
+					};
+				};
+			};
+			buildConfigurationList = 538613ED27C445C80041EA5A /* Build configuration list for PBXProject "Take A Pill App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538613E927C445C80041EA5A;
+			productRefGroup = 538613F327C445C80041EA5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538613F127C445C80041EA5A /* Take A Pill App */,
+				5386140727C445CC0041EA5A /* Take A Pill AppTests */,
+				5386141127C445CC0041EA5A /* Take A Pill AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538613F027C445C80041EA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5386140227C445CB0041EA5A /* LaunchScreen.storyboard in Resources */,
+				538613FF27C445CB0041EA5A /* Assets.xcassets in Resources */,
+				538613FD27C445C80041EA5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5386140627C445CC0041EA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5386141027C445CC0041EA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538613EE27C445C80041EA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538613FA27C445C80041EA5A /* ViewController.swift in Sources */,
+				538613F627C445C80041EA5A /* AppDelegate.swift in Sources */,
+				538613F827C445C80041EA5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5386140427C445CC0041EA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5386140D27C445CC0041EA5A /* Take_A_Pill_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5386140E27C445CC0041EA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5386141927C445CC0041EA5A /* Take_A_Pill_AppUITestsLaunchTests.swift in Sources */,
+				5386141727C445CC0041EA5A /* Take_A_Pill_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5386140A27C445CC0041EA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538613F127C445C80041EA5A /* Take A Pill App */;
+			targetProxy = 5386140927C445CC0041EA5A /* PBXContainerItemProxy */;
+		};
+		5386141427C445CC0041EA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538613F127C445C80041EA5A /* Take A Pill App */;
+			targetProxy = 5386141327C445CC0041EA5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		538613FB27C445C80041EA5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538613FC27C445C80041EA5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5386140027C445CB0041EA5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5386140127C445CB0041EA5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5386141A27C445CC0041EA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5386141B27C445CC0041EA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5386141D27C445CC0041EA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Take A Pill App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac..Take-A-Pill-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5386141E27C445CC0041EA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Take A Pill App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac..Take-A-Pill-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5386142027C445CC0041EA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac..Take-A-Pill-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Take A Pill App.app/Take A Pill App";
+			};
+			name = Debug;
+		};
+		5386142127C445CC0041EA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac..Take-A-Pill-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Take A Pill App.app/Take A Pill App";
+			};
+			name = Release;
+		};
+		5386142327C445CC0041EA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac..Take-A-Pill-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Take A Pill App";
+			};
+			name = Debug;
+		};
+		5386142427C445CC0041EA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac..Take-A-Pill-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Take A Pill App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538613ED27C445C80041EA5A /* Build configuration list for PBXProject "Take A Pill App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5386141A27C445CC0041EA5A /* Debug */,
+				5386141B27C445CC0041EA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5386141C27C445CC0041EA5A /* Build configuration list for PBXNativeTarget "Take A Pill App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5386141D27C445CC0041EA5A /* Debug */,
+				5386141E27C445CC0041EA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5386141F27C445CC0041EA5A /* Build configuration list for PBXNativeTarget "Take A Pill AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5386142027C445CC0041EA5A /* Debug */,
+				5386142127C445CC0041EA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5386142227C445CC0041EA5A /* Build configuration list for PBXNativeTarget "Take A Pill AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5386142327C445CC0041EA5A /* Debug */,
+				5386142427C445CC0041EA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538613EA27C445C80041EA5A /* Project object */;
+}
