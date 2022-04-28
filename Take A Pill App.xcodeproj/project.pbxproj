@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		534EE88F27F876310052AC9B /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534EE88E27F876310052AC9B /* Medicine.swift */; };
 		538613F627C445C80041EA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538613F527C445C80041EA5A /* AppDelegate.swift */; };
 		538613F827C445C80041EA5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538613F727C445C80041EA5A /* SceneDelegate.swift */; };
 		538613FA27C445C80041EA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538613F927C445C80041EA5A /* ViewController.swift */; };
@@ -16,6 +17,16 @@
 		5386140D27C445CC0041EA5A /* Take_A_Pill_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386140C27C445CC0041EA5A /* Take_A_Pill_AppTests.swift */; };
 		5386141727C445CC0041EA5A /* Take_A_Pill_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386141627C445CC0041EA5A /* Take_A_Pill_AppUITests.swift */; };
 		5386141927C445CC0041EA5A /* Take_A_Pill_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386141827C445CC0041EA5A /* Take_A_Pill_AppUITestsLaunchTests.swift */; };
+		53C4A48F27C44EF9004130BC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4A48E27C44EF9004130BC /* RegisterViewController.swift */; };
+		53C4A49327C44F8C004130BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4A49227C44F8C004130BC /* LoginViewController.swift */; };
+		53C4A49527C45058004130BC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4A49427C45058004130BC /* MainViewController.swift */; };
+		53C4A49B27C4518B004130BC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4A49A27C4518B004130BC /* AddViewController.swift */; };
+		53C4A49D27C4F418004130BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53C4A49C27C4F418004130BC /* GoogleService-Info.plist */; };
+		53FE1520280DF79200811908 /* MedicineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FE151E280DF79200811908 /* MedicineCell.swift */; };
+		53FE1521280DF79200811908 /* MedicineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FE151F280DF79200811908 /* MedicineCell.xib */; };
+		AEEE7F872727EC39C8A4E97D /* Pods_Take_A_Pill_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D074356A339E7EBA0CE725 /* Pods_Take_A_Pill_App.framework */; };
+		C81A162C6E1007D43A09AE2A /* Pods_Take_A_Pill_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87904D8F9DF483CF75223767 /* Pods_Take_A_Pill_AppTests.framework */; };
+		CE73E1261FA6C60F98BE890A /* Pods_Take_A_Pill_App_Take_A_Pill_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AF28FC0D8DEB991221AEF8 /* Pods_Take_A_Pill_App_Take_A_Pill_AppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10D1C8105AE133A34E878CD7 /* Pods-Take A Pill App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Take A Pill App.release.xcconfig"; path = "Target Support Files/Pods-Take A Pill App/Pods-Take A Pill App.release.xcconfig"; sourceTree = "<group>"; };
+		11AEDA3B337129077D4640FF /* Pods-Take A Pill AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Take A Pill AppTests.release.xcconfig"; path = "Target Support Files/Pods-Take A Pill AppTests/Pods-Take A Pill AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C8D67D79E754CC73DEE510F /* Pods-Take A Pill AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Take A Pill AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Take A Pill AppTests/Pods-Take A Pill AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35D074356A339E7EBA0CE725 /* Pods_Take_A_Pill_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Take_A_Pill_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		534EE88E27F876310052AC9B /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
 		538613F227C445C80041EA5A /* Take A Pill App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take A Pill App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		538613F527C445C80041EA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538613F727C445C80041EA5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,18 @@
 		5386141227C445CC0041EA5A /* Take A Pill AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take A Pill AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5386141627C445CC0041EA5A /* Take_A_Pill_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_A_Pill_AppUITests.swift; sourceTree = "<group>"; };
 		5386141827C445CC0041EA5A /* Take_A_Pill_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_A_Pill_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53C4A48E27C44EF9004130BC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		53C4A49227C44F8C004130BC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		53C4A49427C45058004130BC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		53C4A49A27C4518B004130BC /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		53C4A49C27C4F418004130BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53FE151E280DF79200811908 /* MedicineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineCell.swift; sourceTree = "<group>"; };
+		53FE151F280DF79200811908 /* MedicineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicineCell.xib; sourceTree = "<group>"; };
+		82B07C962D18482DCF35BFFE /* Pods-Take A Pill App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Take A Pill App.debug.xcconfig"; path = "Target Support Files/Pods-Take A Pill App/Pods-Take A Pill App.debug.xcconfig"; sourceTree = "<group>"; };
+		87904D8F9DF483CF75223767 /* Pods_Take_A_Pill_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Take_A_Pill_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBBF111E24FB9273F768B03 /* Pods-Take A Pill App-Take A Pill AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Take A Pill App-Take A Pill AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Take A Pill App-Take A Pill AppUITests/Pods-Take A Pill App-Take A Pill AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB13BD24A8C2F9F3BB1A9141 /* Pods-Take A Pill App-Take A Pill AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Take A Pill App-Take A Pill AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Take A Pill App-Take A Pill AppUITests/Pods-Take A Pill App-Take A Pill AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6AF28FC0D8DEB991221AEF8 /* Pods_Take_A_Pill_App_Take_A_Pill_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Take_A_Pill_App_Take_A_Pill_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEEE7F872727EC39C8A4E97D /* Pods_Take_A_Pill_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81A162C6E1007D43A09AE2A /* Pods_Take_A_Pill_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE73E1261FA6C60F98BE890A /* Pods_Take_A_Pill_App_Take_A_Pill_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +114,8 @@
 				5386140B27C445CC0041EA5A /* Take A Pill AppTests */,
 				5386141527C445CC0041EA5A /* Take A Pill AppUITests */,
 				538613F327C445C80041EA5A /* Products */,
+				E2CDE120278017280C19363E /* Pods */,
+				65FAEB2386399D216FD78134 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +134,12 @@
 			children = (
 				538613F527C445C80041EA5A /* AppDelegate.swift */,
 				538613F727C445C80041EA5A /* SceneDelegate.swift */,
-				538613F927C445C80041EA5A /* ViewController.swift */,
-				538613FB27C445C80041EA5A /* Main.storyboard */,
+				53C4A48D27C44EC3004130BC /* Model */,
+				53C4A48C27C44EB7004130BC /* View */,
+				53C4A48B27C44EA1004130BC /* Controller */,
 				538613FE27C445CB0041EA5A /* Assets.xcassets */,
 				5386140027C445CB0041EA5A /* LaunchScreen.storyboard */,
+				53C4A49C27C4F418004130BC /* GoogleService-Info.plist */,
 				5386140327C445CB0041EA5A /* Info.plist */,
 			);
 			path = "Take A Pill App";
@@ -127,6 +162,59 @@
 			path = "Take A Pill AppUITests";
 			sourceTree = "<group>";
 		};
+		53C4A48B27C44EA1004130BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				538613F927C445C80041EA5A /* ViewController.swift */,
+				53C4A48E27C44EF9004130BC /* RegisterViewController.swift */,
+				53C4A49227C44F8C004130BC /* LoginViewController.swift */,
+				53C4A49427C45058004130BC /* MainViewController.swift */,
+				53C4A49A27C4518B004130BC /* AddViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		53C4A48C27C44EB7004130BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				538613FB27C445C80041EA5A /* Main.storyboard */,
+				53FE151E280DF79200811908 /* MedicineCell.swift */,
+				53FE151F280DF79200811908 /* MedicineCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53C4A48D27C44EC3004130BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				534EE88E27F876310052AC9B /* Medicine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65FAEB2386399D216FD78134 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35D074356A339E7EBA0CE725 /* Pods_Take_A_Pill_App.framework */,
+				F6AF28FC0D8DEB991221AEF8 /* Pods_Take_A_Pill_App_Take_A_Pill_AppUITests.framework */,
+				87904D8F9DF483CF75223767 /* Pods_Take_A_Pill_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2CDE120278017280C19363E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82B07C962D18482DCF35BFFE /* Pods-Take A Pill App.debug.xcconfig */,
+				10D1C8105AE133A34E878CD7 /* Pods-Take A Pill App.release.xcconfig */,
+				9EBBF111E24FB9273F768B03 /* Pods-Take A Pill App-Take A Pill AppUITests.debug.xcconfig */,
+				BB13BD24A8C2F9F3BB1A9141 /* Pods-Take A Pill App-Take A Pill AppUITests.release.xcconfig */,
+				1C8D67D79E754CC73DEE510F /* Pods-Take A Pill AppTests.debug.xcconfig */,
+				11AEDA3B337129077D4640FF /* Pods-Take A Pill AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5386141C27C445CC0041EA5A /* Build configuration list for PBXNativeTarget "Take A Pill App" */;
 			buildPhases = (
+				DE812AEE7E2273E339F9B1D3 /* [CP] Check Pods Manifest.lock */,
 				538613EE27C445C80041EA5A /* Sources */,
 				538613EF27C445C80041EA5A /* Frameworks */,
 				538613F027C445C80041EA5A /* Resources */,
+				FF742DD908D27735C4D6EDB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5386141F27C445CC0041EA5A /* Build configuration list for PBXNativeTarget "Take A Pill AppTests" */;
 			buildPhases = (
+				648E41E8C02471D96F625057 /* [CP] Check Pods Manifest.lock */,
 				5386140427C445CC0041EA5A /* Sources */,
 				5386140527C445CC0041EA5A /* Frameworks */,
 				5386140627C445CC0041EA5A /* Resources */,
@@ -169,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5386142227C445CC0041EA5A /* Build configuration list for PBXNativeTarget "Take A Pill AppUITests" */;
 			buildPhases = (
+				05D4E0B6290BA543599C0B4B /* [CP] Check Pods Manifest.lock */,
 				5386140E27C445CC0041EA5A /* Sources */,
 				5386140F27C445CC0041EA5A /* Frameworks */,
 				5386141027C445CC0041EA5A /* Resources */,
+				C86C9273F137EB731898F104 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5386140227C445CB0041EA5A /* LaunchScreen.storyboard in Resources */,
+				53C4A49D27C4F418004130BC /* GoogleService-Info.plist in Resources */,
 				538613FF27C445CB0041EA5A /* Assets.xcassets in Resources */,
 				538613FD27C445C80041EA5A /* Main.storyboard in Resources */,
+				53FE1521280DF79200811908 /* MedicineCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +348,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05D4E0B6290BA543599C0B4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Take A Pill App-Take A Pill AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		648E41E8C02471D96F625057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Take A Pill AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86C9273F137EB731898F104 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Take A Pill App-Take A Pill AppUITests/Pods-Take A Pill App-Take A Pill AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Take A Pill App-Take A Pill AppUITests/Pods-Take A Pill App-Take A Pill AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Take A Pill App-Take A Pill AppUITests/Pods-Take A Pill App-Take A Pill AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE812AEE7E2273E339F9B1D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Take A Pill App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF742DD908D27735C4D6EDB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Take A Pill App/Pods-Take A Pill App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Take A Pill App/Pods-Take A Pill App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Take A Pill App/Pods-Take A Pill App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		538613EE27C445C80041EA5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C4A49327C44F8C004130BC /* LoginViewController.swift in Sources */,
+				534EE88F27F876310052AC9B /* Medicine.swift in Sources */,
+				53C4A49B27C4518B004130BC /* AddViewController.swift in Sources */,
 				538613FA27C445C80041EA5A /* ViewController.swift in Sources */,
 				538613F627C445C80041EA5A /* AppDelegate.swift in Sources */,
+				53FE1520280DF79200811908 /* MedicineCell.swift in Sources */,
+				53C4A49527C45058004130BC /* MainViewController.swift in Sources */,
 				538613F827C445C80041EA5A /* SceneDelegate.swift in Sources */,
+				53C4A48F27C44EF9004130BC /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +638,7 @@
 		};
 		5386141D27C445CC0041EA5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B07C962D18482DCF35BFFE /* Pods-Take A Pill App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +666,7 @@
 		};
 		5386141E27C445CC0041EA5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D1C8105AE133A34E878CD7 /* Pods-Take A Pill App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +694,7 @@
 		};
 		5386142027C445CC0041EA5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8D67D79E754CC73DEE510F /* Pods-Take A Pill AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +714,7 @@
 		};
 		5386142127C445CC0041EA5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11AEDA3B337129077D4640FF /* Pods-Take A Pill AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +734,7 @@
 		};
 		5386142327C445CC0041EA5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBBF111E24FB9273F768B03 /* Pods-Take A Pill App-Take A Pill AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +752,7 @@
 		};
 		5386142427C445CC0041EA5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB13BD24A8C2F9F3BB1A9141 /* Pods-Take A Pill App-Take A Pill AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
